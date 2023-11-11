@@ -22,7 +22,7 @@
 	       scale="1 1 1"
 	       gps-entity-place="latitude: 48.86702; longitude: 2.35534;">
       </a-image>
-      <a-camera gps-camera rotation-reader></a-camera>
+      <a-camera arjs-look-controls='smoothingFactor: 0.1' gps-projected-camera='gpsMinDistance: 5' gps-camera rotation-reader></a-camera>
     </a-scene>
   </body>
 </html>
