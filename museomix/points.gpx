@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with BasicAirData GPS Logger for Android - ver. 3.2.1 -->
+<!-- Track 1 = 1152 TrackPoints + 6 Placemarks -->
+
+<!-- Track Statistics (based on Total Time | Time in Movement): -->
+<!--  Distance = 445 m -->
+<!--  Duration = 22:31 | 10:03 -->
+<!--  Altitude Gap = -25 m -->
+<!--  Max Speed = 6 km/h -->
+<!--  Avg Speed = 1,2 | 2,7 km/h -->
+<!--  Direction = N -->
+<!--  Activity = walking -->
+<!--  Altitudes = Raw -->
+
+<gpx version="1.0"
+     creator="BasicAirData GPS Logger 3.2.1"
+     xmlns="http://www.topografix.com/GPX/1/0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+<name>GPS Logger 20231112-094733</name>
+<time>2023-11-12T09:11:26Z</time>
+<keywords>walking</keywords>
+<bounds minlat="48.86599851" minlon="2.35516890" maxlat="48.86732151" maxlon="2.35650245" />
+
+<wpt lat="48.86646981" lon="2.35538723"><ele>97.018</ele><time>2023-11-12T08:47:33Z</time><name>GrandBi</name><sat>10</sat></wpt>
+
+<wpt lat="48.86659939" lon="2.35549188"><ele>62.752</ele><time>2023-11-12T08:50:29Z</time><name>MoulinACafe</name><sat>18</sat></wpt>
+
+<wpt lat="48.86604390" lon="2.35555288"><ele>76.033</ele><time>2023-11-12T08:53:04Z</time><name>Pile</name><sat>28</sat></wpt>
+
+<wpt lat="48.86638952" lon="2.35595438"><ele>68.364</ele><time>2023-11-12T08:58:53Z</time><name>Phonogramme</name><sat>21</sat></wpt>
+
+<wpt lat="48.86674288" lon="2.35614018"><ele>68.303</ele><time>2023-11-12T09:00:30Z</time><name>PresseMarioni</name><sat>24</sat></wpt>
+
+<wpt lat="48.86672293" lon="2.35572420"><ele>89.423</ele><time>2023-11-12T09:06:58Z</time><name>Jacquard</name><sat>28</sat></wpt>
+</gpx>
+ 
