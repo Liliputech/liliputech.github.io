@@ -10,56 +10,55 @@
   </head>
   <body>
     <a-scene vr-mode-ui="enabled: false"
-	     renderer="logarithmicDepthBuffer: true; precision: medium;"
-	     arjs="trackingMethod: best; sourceType: webcam; videoTexture: true; debugUIEnabled: false;">
+	     arjs="sourceType: webcam; videoTexture: true;">
       <a-assets>
 	<img id="mapmarker" src="mapmarker.png">
       </a-assets>
       <a-image
 	name="grandbi"
 	src="#mapmarker"
-	look-at="[gps-camera]"
-	scale="5 5 5"
+	scale="20 20 20"
 	gps-entity-place="latitude: 48.86646981; longitude: 2.35538723;"
 	position="0 55 0"/>
       <a-image
 	name="MoulinACafe"
 	src="#mapmarker"
-	look-at="[gps-camera]"
-	scale="5 5 5"
+	scale="20 20 20"
 	gps-entity-place="latitude: 48.86659939; longitude: 2.35549188;"
 	position="0 70 0"/>
       <a-image
 	name="Pile"
 	src="#mapmarker"
-	look-at="[gps-camera]"
-	scale="5 5 5"
+	scale="20 20 20"
 	gps-entity-place="latitude: 48.86604390; longitude: 2.35555288;"
 	position="0 70 0"/>
       <a-image
 	name="Phonographe"
 	src="#mapmarker"
-	look-at="[gps-camera]"
-	scale="5 5 5"
+	scale="20 20 20"
 	gps-entity-place="latitude: 48.86638952; longitude: 2.35595438;"
 	position="0 70 0"/>
       <a-image
 	name="PresseMarioni"
 	src="#mapmarker"
-	look-at="[gps-camera]"
-	scale="5 5 5"
+	scale="20 20 20"
 	gps-entity-place="latitude: 48.86674288; longitude: 2.35614018;"
 	position="0 70 0"/>
       <a-image
 	name="Jacquard"
 	src="#mapmarker"
-	look-at="[gps-camera]"
-	scale="5 5 5"
+	scale="20 20 20"
 	gps-entity-place="latitude: 48.86672293; longitude: 2.35572420;"
 	position="0 90 0"/>
+      <a-image
+	name="TestTextile"
+	src="#mapmarker"
+	scale="20 20 20"
+	gps-entity-place="latitude: 48.867119250; longitude: 2.355189870;"
+	position="0 70 0"/>
       <a-nft
 	type="nft"
-	url="https://liliputech.github.io/museomixprisme"
+	url="prisme"
 	smooth="true"
 	smoothCount="10"
 	smoothTolerance=".01"
@@ -67,6 +66,7 @@
 	>
 	<a-text
 	  value="Ceci est un prisme!"
+	  look-at="[gps-camera]"
 	  scale="120 120 120">
 	</a-text>
       </a-nft>
